@@ -1,21 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Card from "./Card.js";
 
 const API_KEY = "DEMO_KEY";
 const URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
-function Card ({title, text, image}) { // one react component: three props: title, text, and image
-  return (
-    <div className="card">
-        <h2>{title}</h2>
-        <p> {text}</p>
-        <figure>
-          <img src={image} />
-          <figcaption>Photo by NASA!! </figcaption>
-        </figure>
-      </div>
-  )
-}
 
 function App() {
   // function is for fetching the photo from the NASA API
