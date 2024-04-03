@@ -14,7 +14,7 @@ When you do get the data back, there may be more or less than you expected, so y
 
 This is a really fun project, and one to show your family and friends when you've finished. Have some fun with it!
 
-## Instructions
+## Instructions.
 
 ### Task 1: Setup
 
