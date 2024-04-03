@@ -1,4 +1,9 @@
 import React from 'react'; 
+import styled from 'styled-components';
+
+const styledCard = styled.div`
+
+`
 
 
 export default function Card ({title, text, image}) { // one react component: three props: title, text, and image
